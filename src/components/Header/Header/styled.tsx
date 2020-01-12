@@ -3,14 +3,19 @@ import styled from "styled-components";
 const HeaderStyled = styled.div`
   height: 90px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   box-shadow: 1px 1px 11px 1px #d3d3d3;
-  
+`;
+
+const LogoStyled = styled.div`
+  width: 100%;
+  max-width: 480px;
+  padding-right: 80px;
 `;
 
 const MenuStyled = styled.nav`
-color: ${props => props.theme.blueLight};
+  color: ${props => props.theme.blueLight};
   ul {
     padding: 0;
     margin: 0;
@@ -23,4 +28,4 @@ color: ${props => props.theme.blueLight};
   }
 `;
 
-export { HeaderStyled, MenuStyled };
+export { HeaderStyled, MenuStyled, LogoStyled };
