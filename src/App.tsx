@@ -22,6 +22,8 @@ const stores = { booksStore };
 const App: React.FC = () => {
   return (
     <ConfigProvider>
+
+      
       <ThemeProvider theme={theme}>
         <Provider {...stores}>
           <Router  basename="/gal-enai-malchuty" >
