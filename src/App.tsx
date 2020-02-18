@@ -5,21 +5,37 @@ import { Provider } from "mobx-react";
 import theme from "./theme";
 import { ThemeProvider } from "styled-components";
 import { ConfigProvider } from "antd";
-//import HomePage from "./components/pages/HomePage/HomePage";
-//import CategoryPage from "./components/pages/CategoryPage/CategoryPage";
+import HomePage from "./components/pages/HomePage/HomePage";
+import CategoryPage from "./components/pages/CategoryPage/CategoryPage";
 import Header from "./components/Header/Header/Header";
 import ResultPage from "./components/pages/ResultPage/ResultPage";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BooksStore } from "./stores/BooksStore";
+import Api from "./services/Api";
 
-const stores = {};
+const api = new Api();
+const booksStore = new BooksStore(api);
+const stores = { booksStore };
+
 const App: React.FC = () => {
   return (
     <ConfigProvider>
       <ThemeProvider theme={theme}>
         <Provider {...stores}>
-          <Header />
-          {/* <HomePage/> */}
-          {/* <CategoryPage /> */}
-          <ResultPage/>
+          <Router>
+            <Header />
+            <Switch>
+              <Route path="/" exact>
+                <HomePage />
+              </Route>
+              <Route path="/books" exact>
+                <CategoryPage />
+              </Route>
+              <Route path="/books/:id">
+                <ResultPage />
+              </Route>
+            </Switch>
+          </Router>
         </Provider>
       </ThemeProvider>
     </ConfigProvider>

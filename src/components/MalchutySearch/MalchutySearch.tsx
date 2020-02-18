@@ -6,9 +6,7 @@ import { Radio } from "antd";
 const { Search } = Input;
 
 class MalchutySearch extends React.PureComponent {
-
   render() {
-    console.log(this.props);
     return (
       <MalchutySearchStyled>
         <Search

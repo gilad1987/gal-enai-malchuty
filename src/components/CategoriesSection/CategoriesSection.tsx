@@ -4,6 +4,7 @@ import { H2 } from "../shared/styled";
 import CategoryMenuItem from "./CategoryMenuItem/CategoryMenuItem";
 import uuidv1 from "uuid/v1";
 
+
 class CategoriesSection extends React.PureComponent {
   categoryItems = [
     {
@@ -12,7 +13,9 @@ class CategoriesSection extends React.PureComponent {
       iconPath: "/images/categories/books-white.svg",
       label: "ספרים",
       counter: 20,
-      key: uuidv1()
+      key: uuidv1(),
+      apiPath:'http://videos.jewishnature.co.il/API/Json/SubjectsTreeStructure/1480662372',
+      treeId:'1480662372',
     },
     {
       background:

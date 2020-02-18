@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CategoryMenuItemStyled: any = styled.div`
+const CategoryMenuItemStyled: any = styled.span`
   width: 200px;
   height: 200px;
   background-image: ${({ backgroundImage }: any) => backgroundImage};
@@ -18,7 +18,7 @@ const CategoryMenuItemStyled: any = styled.div`
     align-items: flex-end;
     line-height: .77;
   }
-  div {
+  span {
     font-size: 18px;
     line-height: 1.28;
   }
