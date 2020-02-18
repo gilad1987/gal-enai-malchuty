@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bfc0e1e1542d66b2ee6886f87b9385c",
+    "revision": "abe9d4893cb2ba460d9bb4b1b443d870",
     "url": "/gal-enai-malchuty/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gal-enai-malchuty/static/css/2.35f98baf.chunk.css"
   },
   {
-    "revision": "198c00f6e565ac41e596",
+    "revision": "a16327c6ac32ffee5ae4",
     "url": "/gal-enai-malchuty/static/css/main.97ba0edb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gal-enai-malchuty/static/js/2.cf4c32d2.chunk.js.LICENSE"
   },
   {
-    "revision": "198c00f6e565ac41e596",
-    "url": "/gal-enai-malchuty/static/js/main.18b4268e.chunk.js"
+    "revision": "a16327c6ac32ffee5ae4",
+    "url": "/gal-enai-malchuty/static/js/main.13266558.chunk.js"
   },
   {
     "revision": "ca259971cc6fffe9ed3e",

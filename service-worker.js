@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gal-enai-malchuty/precache-manifest.034e8593c4f0ffb412c1d9ff1ce6bbb0.js"
+  "/gal-enai-malchuty/precache-manifest.606d190fdb9a7018349d1319ad6e0954.js"
 );
 
 self.addEventListener('message', (event) => {
