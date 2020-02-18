@@ -24,7 +24,7 @@ const App: React.FC = () => {
     <ConfigProvider>
       <ThemeProvider theme={theme}>
         <Provider {...stores}>
-          <Router>
+          <Router  basename="/gal-enai-malchuty" >
             <Header />
             <Switch>
               <Route path="/" exact>
