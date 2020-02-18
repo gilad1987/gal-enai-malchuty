@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.97ba0edb.chunk.css",
-    "main.js": "/static/js/main.b5d2dfdc.chunk.js",
-    "main.js.map": "/static/js/main.b5d2dfdc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.53d7f32f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.53d7f32f.js.map",
-    "static/css/2.35f98baf.chunk.css": "/static/css/2.35f98baf.chunk.css",
-    "static/js/2.40b81fee.chunk.js": "/static/js/2.40b81fee.chunk.js",
-    "static/js/2.40b81fee.chunk.js.map": "/static/js/2.40b81fee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e1fb66d38fcadeed725d5c50ed933ba9.js": "/precache-manifest.e1fb66d38fcadeed725d5c50ed933ba9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.35f98baf.chunk.css.map": "/static/css/2.35f98baf.chunk.css.map",
-    "static/css/main.97ba0edb.chunk.css.map": "/static/css/main.97ba0edb.chunk.css.map",
-    "static/js/2.40b81fee.chunk.js.LICENSE": "/static/js/2.40b81fee.chunk.js.LICENSE"
+    "main.css": "/gal-enai-malchuty/static/css/main.97ba0edb.chunk.css",
+    "main.js": "/gal-enai-malchuty/static/js/main.18b4268e.chunk.js",
+    "main.js.map": "/gal-enai-malchuty/static/js/main.18b4268e.chunk.js.map",
+    "runtime-main.js": "/gal-enai-malchuty/static/js/runtime-main.60ccf8ce.js",
+    "runtime-main.js.map": "/gal-enai-malchuty/static/js/runtime-main.60ccf8ce.js.map",
+    "static/css/2.35f98baf.chunk.css": "/gal-enai-malchuty/static/css/2.35f98baf.chunk.css",
+    "static/js/2.cf4c32d2.chunk.js": "/gal-enai-malchuty/static/js/2.cf4c32d2.chunk.js",
+    "static/js/2.cf4c32d2.chunk.js.map": "/gal-enai-malchuty/static/js/2.cf4c32d2.chunk.js.map",
+    "index.html": "/gal-enai-malchuty/index.html",
+    "precache-manifest.034e8593c4f0ffb412c1d9ff1ce6bbb0.js": "/gal-enai-malchuty/precache-manifest.034e8593c4f0ffb412c1d9ff1ce6bbb0.js",
+    "service-worker.js": "/gal-enai-malchuty/service-worker.js",
+    "static/css/2.35f98baf.chunk.css.map": "/gal-enai-malchuty/static/css/2.35f98baf.chunk.css.map",
+    "static/css/main.97ba0edb.chunk.css.map": "/gal-enai-malchuty/static/css/main.97ba0edb.chunk.css.map",
+    "static/js/2.cf4c32d2.chunk.js.LICENSE": "/gal-enai-malchuty/static/js/2.cf4c32d2.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.53d7f32f.js",
+    "static/js/runtime-main.60ccf8ce.js",
     "static/css/2.35f98baf.chunk.css",
-    "static/js/2.40b81fee.chunk.js",
+    "static/js/2.cf4c32d2.chunk.js",
     "static/css/main.97ba0edb.chunk.css",
-    "static/js/main.b5d2dfdc.chunk.js"
+    "static/js/main.18b4268e.chunk.js"
   ]
 }
